@@ -52,7 +52,7 @@ Bij mijn afstudeerproject heb ik het CRISP-DM framework toegepast om de hele lif
 AI-specifieke ontwerprichtlijnen toepassen voor vertrouwen, veiligheid, privacy, elegante foutafhandeling, feedback en controlemechanismen in het leeftijdscontrole project.
 
 **A - Actie:**
-- AI design patterns bestuderen via Google's People + AI Guidebook
+- AI design patterns bestuderen (via bijv. Google's People + AI Guidebook)
 - Happy en Error flows ontwerpen
 - Privacy-by-design principes toepassen tijdens ontwerp
 - Edge cases identificeren
