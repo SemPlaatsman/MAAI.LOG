@@ -1,0 +1,55 @@
+flowchart TD
+    A[Customer scans age-restricted product] --> B[System detects restricted item]
+    B --> C[Display: 'Verify age with facial analysis?']
+    
+    C --> D[Customer selects 'No']
+    C --> E[Customer selects 'Yes']
+    
+    D --> F[Fallback: Employee verification required]
+    
+    E --> G[Camera activates]
+    G --> H{Camera captures face successfully?}
+    
+    H -->|No| I[Error: Face not detected clearly]
+    H -->|Yes| J[System analyzes captured image]
+    
+    I --> K[Display: 'Please position face clearly']
+    K --> L{Retry attempt}
+    L -->|Success| J
+    L -->|Failed after 3 attempts| M[Fallback: Employee verification required]
+    
+    J --> X{Anomaly detection}
+    X -->|Anomalous behavior detected| Y[Display: 'Verification requires employee assistance']
+    X -->|No anomalies| N{Age analysis result}
+    
+    Y --> Z[Fallback: Employee verification required]
+    
+    N -->|Under 25| O[Age verification failed]
+    N -->|System error| P[Technical error in age analysis]
+    
+    O --> Q[Fallback: Employee verification required]
+    P --> R[Display: 'System error - Employee assistance needed']
+    R --> S[Fallback: Employee verification required]
+    
+    F --> T[Employee verifies ID manually]
+    M --> T
+    Q --> T
+    S --> T
+    Z --> T
+    
+    T --> U{Employee approval?}
+    U -->|Yes| V[Transaction approved]
+    U -->|No| W[Transaction declined]
+    
+    style A fill:#e1f5fe
+    style F fill:#ffecb3
+    style M fill:#ffecb3
+    style Q fill:#ffecb3
+    style S fill:#ffecb3
+    style R fill:#ffcdd2
+    style I fill:#ffcdd2
+    style O fill:#ffcdd2
+    style V fill:#c8e6c9
+    style W fill:#ffcdd2
+    style Y fill:#ffcdd2
+    style Z fill:#ffecb3

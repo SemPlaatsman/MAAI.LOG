@@ -1,0 +1,13 @@
+flowchart TB
+    B[System detects restricted item] --> C[Display: 'Verify age with facial analysis?']
+    C --> D[Customer selects 'Yes']
+    D --> E[Camera activates - Customer sees their face on screen]
+    E --> F[System captures and analyzes face]
+    F --> G[Age analysis: Customer is 25+ years old]
+    G --> H[Age verification successful]
+    H --> I[Customer can complete purchase]
+    I --> J[Transaction completed]
+
+    style B fill:#0000FF
+    style J fill:#00FF00
+    style H fill:#00FF00
