@@ -17,8 +17,8 @@
 | BEW-004 | Preventief dataset onderzoek | Document | [preventief-onderzoek-datasets.md](./docs/preventief-onderzoek-datasets.md) | B1 |
 | BEW-005 | Business Critical Zones scatterplot | Afbeelding | [model-performance.jpg](./docs/model-performance.jpg) | B2, C2 |
 | BEW-006 | Eigen paper prototype (Figma) | Online | https://green-frame-34768810.figma.site/ | A3, C3 |
-| BEW-007 | Technische Review Feedback (groep) | Document | (feedback-technisch-rapport.md)[./docs/feedback-technisch-rapport.md] | B1, B2, B3, C2 |
-| BEW-008 | M&T Opdracht 1a Feedback | Document | (feedback-mt-opdracht1a.md)[./docs/feedback-mt-opdracht1a.md] | A2, B1, B2, C2 |
+| BEW-007 | Technische Review Feedback (groep) | Document | [feedback-technisch-rapport.md](./docs/feedback-technisch-rapport.md) | B1, B2, B3, C2 |
+| BEW-008 | M&T Opdracht 1a Feedback | Document | [feedback-mt-opdracht1a.md](./docs/feedback-mt-opdracht1a.md) | A2, B1, B2, C2 |
 | BEW-009 | PvA Artikel Feedback | Document | [feedback-pva.md](./docs/feedback-pva.md) | D2, D3 |
 
 ---
