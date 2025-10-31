@@ -21,7 +21,6 @@
 | BEW-008 | M&T Opdracht 1a Feedback | Document | (feedback-mt-opdracht1a.md)[./docs/feedback-mt-opdracht1a.md] | A2, B1, B2, C2 |
 | BEW-009 | PvA Artikel Feedback | Document | [feedback-pva.md](./docs/feedback-pva.md) | D2, D3 |
 
-
 ---
 
 ## A. CONTEXTUALISEREN EN ONTWERPEN
@@ -255,10 +254,17 @@ Samen met stakeholders het prototype voor het leeftijdscontrole project analyser
 Ik heb een eigen paper prototype ontwikkeld in Figma dat verschillende screens toont voor de happy flow en error flow. Dit prototype bevat een basis representatie van de applicatie om de flow te laten zien. Na bespreking met het team hebben we één gemeenschappelijk paper prototype gemaakt dat elementen van verschillende ontwerpen combineert. (Bewijs: BEW-006)
 
 **R - Resultaat:**
+Het gemeenschappelijke paper prototype is gebruikt tijdens de feedback sessie met de CMD-studenten. Het prototype visualiseert zowel de happy flow (succesvolle leeftijdsverificatie) als verschillende error scenarios. Op basis van informele feedback tijdens deze review en groepsdiscussies hebben we enkele aanpassingen gedaan aan de UI, zoals duidelijkere instructies voor het correct positioneren van het gezicht, een explicietere feedback loop wanneer het systeem geen leeftijd kan schatten, en meer inzicht in o.a. privacy-regulaties via een info knop. Het prototype vormde de basis voor ons uiteindelijke implementatie en hielp om vroegtijdig discussies te voeren over edge cases en gebruikersinteractie.
 
 **R - Reflectie:**
+Het maken van een paper prototype voordat we aan implementatie begonnen bleek waardevol. Het maakte abstract denken over flows concreet. Discussies over "wat gebeurt er als..." werden makkelijker te voeren met visuele ondersteuning.
 
 **T - Transfer:**
+Voor de rest van het blok plannen we om voor de expo onze interface te testen binnen de groep en medestudenten. Specifiek willen we testen:
+* Begrijpen ze de interface en instructies zonder uitleg?
+* Voelt de interactie natuurlijk aan binnen hun bestaande kassaworkflow?
+* Hoe ervaren ze de balans tussen automatisering en menselijke controle?
+Het laatste punt zal zeer interessant zijn om te zien van medestudenten die een hele andere mate van automatisering hebben toegepast. 
 
 ---
 
